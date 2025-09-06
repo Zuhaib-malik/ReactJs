@@ -15,12 +15,14 @@ function App() {
 
   return (
     <>
-      <h1>Counter App </h1>
+    <div>
+      <h1>Counter App 😍</h1>
 
-      <h1>{count}</h1>
-      <button onClick={subtract}>Subtraction</button>
-      <button onClick={reset}>Reset</button>
-      <button onClick={add}>Addition</button>
+      <h2>{count}❣️</h2>
+      <button  onClick={subtract}>Subtraction👇</button>
+      <button  onClick={reset}>Reset♻️</button>
+      <button onClick={add}>Addition☝️</button>
+      </div>
     </>
   );
 }
